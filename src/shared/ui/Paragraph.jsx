@@ -6,3 +6,4 @@ export const Paragraph = ({part, exercise}) => {
     </p>
   );
 };
+// so this was a exercise 1.2
