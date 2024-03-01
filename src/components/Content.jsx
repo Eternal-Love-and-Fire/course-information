@@ -7,9 +7,9 @@ export const Content = ({ content }) => {
       {content.map((prgrph) => {
         return (
           <Paragraph
-            key={prgrph.part}
-            part={prgrph.part}
-            exercise={prgrph.exercise}
+            key={prgrph.name}
+            name={prgrph.name}
+            exercises={prgrph.exercises}
           />
         );
       })}

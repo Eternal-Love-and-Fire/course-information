@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-export const Paragraph = ({part, exercise}) => {
+export const Paragraph = ({name, exercises}) => {
   return (
     <p>
-      {part} {exercise}
+      {name} {exercises}
     </p>
   );
 };
-// so this was a exercise 1.2
+// so this was a exercises 1.2
