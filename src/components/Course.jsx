@@ -3,21 +3,18 @@ import { Header } from "./Header";
 import { Total } from "./Total";
 
 /* eslint-disable react/prop-types */
-export const Course = ({ course }) => {
+export const Course = ({ courses }) => {
   return (
     <>
-    <Header course={course.name} />
-            <Content content={course.parts} />
-            <Total content={course.parts} />
-      {/* {course.map((item) => {
+      {courses.map((course) => {
         return (
-          <div key={item.id}>
+          <div key={course.id}>
             <Header course={course.name} />
             <Content content={course.parts} />
             <Total content={course.parts} />
           </div>
         );
-      })} */}
+      })}
     </>
   );
 };
